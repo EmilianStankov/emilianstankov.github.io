@@ -8,6 +8,16 @@
 	src: url(../fonts/Joyeux.ttf);
 }
 
+@font-face {
+	font-family: Groteskia;
+	src: url(../fonts/GROTESKIA.otf);
+}
+
+@font-face {
+	font-family: Sertig;
+	src: url(../fonts/Sertig.otf);
+}
+
 body {
 	font-size: 10px;
 	background: #37a844;
@@ -104,8 +114,25 @@ div.content {
 	background: rgba(225,225,225,0.8);
 	width: 95em;
 	padding: 2em;
+	min-height: 50em;
 }
 
-p.entry {
+h2.entry-title {
 	font-size: 2.5em;
+	font-family: Groteskia;
+}
+
+p.entry{
+	font-size: 2em;
+	font-family: Sertig;
+	text-indent: 3em;
+	text-align:justify;
+}
+
+#notice {
+	color: #bf4340;
+	font-size: 6em;
+	font-weight: bold;
+	text-align: center;
+	font-family: Sertig;
 }

@@ -1,0 +1,111 @@
+@font-face {
+	font-family: Abstract Slab;
+	src: url(../fonts/abstract_slab.ttf);
+}
+
+@font-face {
+	font-family: Joyeux;
+	src: url(../fonts/Joyeux.ttf);
+}
+
+body {
+	font-size: 10px;
+	background: #37a844;
+	position: relative;
+}
+
+div.header {
+	margin: auto;
+	padding: 0em;
+	padding-top: 2em;
+	background: #2a7630;
+	height: 7em;
+	width: 70em;
+	text-align: center;
+	border-radius: 1.25em;
+	border: solid #2c8135;
+	transform: rotate(-1deg);
+	-webkit-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	-ms-transform: rotate(-1deg);
+} 
+
+div.header:hover {
+	transform: rotate(1deg);
+	-webkit-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	background: #2c8135;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	-o-transition: background 0.6s;
+}
+
+h1.header {
+	padding: 0em;
+	margin: 0em;
+	font-size: 6em;
+	font-family: Abstract Slab;
+	font-weight: 300;
+	color: #232323;
+}
+
+h1.header:hover {
+	color: #eeeeee;
+	transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+}
+
+hr.white {
+	width: 70em;
+	height: 0.2em;
+	border: none;
+	background: #eeeeee;
+	margin-top: -0.15em;
+}
+
+div.menu-bar {
+	margin: auto;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	padding: 0em;
+	font-size: 3em;
+	text-align: center;
+}
+
+a.menu-link {
+	text-decoration: none;
+	font-family: Joyeux;
+	color: #78285c;
+	margin-left: 0.5em;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	border-radius: 0.6em;
+} 
+
+a.menu-link:hover {
+	color: #602265;
+	background: #2c8135;
+	transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	-o-transition: background 0.5s;
+}
+
+div.content {
+	border-radius: 1em;
+	margin: auto;
+	background: rgba(225,225,225,0.8);
+	width: 95em;
+	padding: 2em;
+}
+
+p.entry {
+	font-size: 2.5em;
+}

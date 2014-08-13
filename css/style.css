@@ -20,7 +20,7 @@
 
 body {
 	font-size: 10px;
-	background: #37a844;
+	background-image: url(../images/stripe.png);
 	position: relative;
 }
 
@@ -66,10 +66,10 @@ h1.header:hover {
 
 div.menu-bar {
 	border: none;
+	background: #bf4340;
+	width: 26.7em;
 	margin: auto;
-	margin-top: 0.3em;
-	margin-bottom: 0.5em;
-	padding: 0em;
+	padding: 0.3em 0em 0.3em 0em;
 	font-size: 3em;
 	text-align: center;
 }
@@ -77,17 +77,15 @@ div.menu-bar {
 a.menu-link {
 	text-decoration: none;
 	font-family: Joyeux;
-	color: #78285c;
+	color: #eeeeee;
 	margin-left: 0.5em;
 	padding: 0.2em 0.4em 0.2em 0.4em;
-	border-radius: 0.2em;
+	border-radius: 0.2em 0.2em 0em 0em;
 } 
 
 a.menu-link:hover {
 	color: #602265;
-	background: #2c8135;
-	border-bottom: 0.05em solid #dddddd;
-	border-top: 0.05em solid #333333;
+	background: #eeeeee;
 	transition: color 0.5s;
 	-webkit-transition: color 0.5s;
 	-moz-transition: color 0.5s;
@@ -98,6 +96,16 @@ a.menu-link:hover {
 	-o-transition: background 0.5s;
 }
 
+a.menu-link-active {
+	text-decoration: none;
+	font-family: Joyeux;
+	margin-left: 0.5em;
+	padding: 0.2em 0.4em 0.2em 0.4em;
+	border-radius: 0.2em 0.2em 0em 0em;
+	color: #602265;
+	background: #eeeeee;
+}
+
 div.content {
 	border-radius: 0em 0em 1.25em 1.25em;
 	margin: auto;
@@ -106,12 +114,12 @@ div.content {
 	width: 76em;
 	padding: 2em;
 	min-height: 50em;
-	box-shadow: 0em -0.2em 1em #000000;
+	box-shadow: 0em 0.2em 2em #000000;
 	border-top: 0.4em solid #eeeeee
 }
 
 div.content:hover {
-	box-shadow: 0em -0.5em 2em #000000;
+	box-shadow: 0em 0.5em 2em #000000;
 }
 
 h2.entry-title {

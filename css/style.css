@@ -18,6 +18,10 @@
 	src: url(../fonts/Sertig.otf);
 }
 
+::selection {
+  background: #bf4340; /* WebKit/Blink Browsers */
+}
+
 body {
 	font-size: 10px;
 	background-image: url(../images/stripe.png);
@@ -26,6 +30,14 @@ body {
 
 a {
 	text-decoration: none;
+	color: #bf4340;
+}
+a:hover {
+	color: #2a7630;
+	transition: color 0.5s;
+	-webkit-transition: color 0.5s;
+	-moz-transition: color 0.5s;
+	-o-transition: color 0.5s;
 }
 div.header {
 	margin: auto;
@@ -128,7 +140,7 @@ h2.entry-title {
 	font-family: Groteskia;
 }
 
-p.entry{
+p {
 	font-size: 2em;
 	font-family: Sertig;
 	text-indent: 3em;

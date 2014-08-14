@@ -2,18 +2,8 @@
 title: Home
 layout: default
 ---
-<div class = "menu-bar">
-			<a class = "menu-link-active" href>Home</a>
-			<a class = "menu-link" href = "projects/index.html">Projects</a>
-			<a class = "menu-link" href = "about/index.html">About</a>
-			<a class = "menu-link" href = "links/index.html">Links</a>
-		</div>
-		<div class = "content">
-{% for post in site.posts limit: 5 %}
-    <h2 class = "entry-title">{{ post.title }}</h2>
-    <h4>{{ post.date | date_to_long_string }}</h4>
-    <p class = "entry">
-      <a href="{{ post.url }}">Read Post</a>
-    </p>
-{% endfor %}
+{% include home-menu.html %}
+<h2 class = "entry-title">Welcome!</h2>
+	<p>Welcome to my website. Here you can find information about my projects. I may decide to blog someday, too </p>
+ 	<span id = "notice">The site is still under construction!</span>
 

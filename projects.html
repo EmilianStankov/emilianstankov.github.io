@@ -2,17 +2,8 @@
 title: Projects
 layout: default
 ---
-<div class = "menu-bar">
-			<a class = "menu-link" href = "../index.html">Home</a>
-			<a class = "menu-link-active" href>Projects</a>
-			<a class = "menu-link" href = "../about/index.html">About</a>
-			<a class = "menu-link" href = "../links/index.html">Links</a>
-		</div>
-		<div class = "content">
-{% for post in site.posts limit: 5 %}
-    <h2 class = "entry-title">{{ post.title }}</h2>
-    <h4>{{ post.date | date_to_long_string }}</h4>
-    <p class = "entry">
-      <a href="{{ post.url }}">Read Post</a>
-    </p>
+{% include projects-menu.html %}
+{% for post in site.posts %}
+    <a href="{{ post.url }}"><h2 class = "entry-title">{{ post.title }}</a> - {{ post.date | date_to_long_string }}</h2>
+    
 {% endfor %}

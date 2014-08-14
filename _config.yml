@@ -1,0 +1,10 @@
+name: "Emilian Stankov"
+description: "My website"
+
+url: "http://emilianstankov.github.io"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: pretty
+highlighter: pygments

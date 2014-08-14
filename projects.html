@@ -1,12 +1,12 @@
 ---
-title: Home
+title: Projects
 layout: default
 ---
 <div class = "menu-bar">
-			<a class = "menu-link-active" href>Home</a>
-			<a class = "menu-link" href = "projects/index.html">Projects</a>
-			<a class = "menu-link" href = "about/index.html">About</a>
-			<a class = "menu-link" href = "links/index.html">Links</a>
+			<a class = "menu-link" href = "../index.html">Home</a>
+			<a class = "menu-link-active" href>Projects</a>
+			<a class = "menu-link" href = "../about/index.html">About</a>
+			<a class = "menu-link" href = "../links/index.html">Links</a>
 		</div>
 		<div class = "content">
 {% for post in site.posts limit: 5 %}
@@ -16,4 +16,3 @@ layout: default
       <a href="{{ post.url }}">Read Post</a>
     </p>
 {% endfor %}
-

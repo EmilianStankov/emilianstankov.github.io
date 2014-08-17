@@ -1,6 +1,6 @@
 @font-face {
-	font-family: Abstract Slab;
-	src: url(../fonts/abstract_slab.ttf);
+	font-family: CF Historia;
+	src: url(../fonts/CFHistoria-Regular.ttf);
 }
 
 @font-face {
@@ -44,7 +44,7 @@ div.header {
 	padding: 0em;
 	padding-top: 2em;
 	background: #2a7630;
-	height: 7em;
+	height: 9.5em;
 	width: 80em;
 	text-align: center;
 	border-radius: 1.25em 1.25em 0em 0em;
@@ -66,8 +66,9 @@ h1.header {
 	margin: 0em;
 	margin-top: 0.15em;
 	font-size: 9em;
-	font-family: Abstract Slab;
-	font-weight: 300;
+	font-family: CF Historia;
+	font-weight: 600;
+	letter-spacing: 0.1em;
 	color: #232323;
 }
 

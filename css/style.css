@@ -43,7 +43,7 @@ div.header {
 	margin: auto;
 	padding: 0em;
 	padding-top: 2em;
-	background: #2a7630;
+	background: #666666;
 	height: 9.5em;
 	width: 80em;
 	text-align: center;
@@ -53,7 +53,7 @@ div.header {
 } 
 
 div.header:hover { 
-	background: #2c8135;
+	background: #767676;
 	box-shadow: 0em 0.7em 2em #000000;
 	transition: background 0.6s;
 	-webkit-transition: background 0.6s;
